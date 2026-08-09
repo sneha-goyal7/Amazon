@@ -1,5 +1,6 @@
 *{
     margin:0;
+    padding:0;
     font-family:Arial;
     box-sizing:border-box;
 }
@@ -9,7 +10,11 @@
     background-color:#0f1111;
     color:white;
     display:flex;
+    align-items:center;
+    gap: 12px;
 }
+
+/* box1 styling*/
 
 .nav-logo {
     height:50px;
@@ -34,3 +39,25 @@
 }
 
 /*box 2 styling*/
+
+.add-first {
+    color:#cccccc;
+    font-size:0.75rem;
+    margin-left:18px;
+}
+
+.add-second {
+    font-size: 0.95rem;
+    font-weight: 600;
+}
+
+.add-icon {
+    display:flex;
+    align-items:center;
+}
+
+/*box3 styling*/
+
+.nav-search {
+    display:flex;
+}
