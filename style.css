@@ -377,7 +377,7 @@ hr {
     justify-content: center;
     font-size:0.85rem;
     width:94%;
-    margin-bottom: 60px;
+    margin-bottom: 50px;
 }
 
 .hero-msg a{
@@ -385,4 +385,41 @@ hr {
 }
 
 /*shopping section start*/
+
+/*box1 styling done*/
+.shop-section{
+    display:flex;
+    justify-content: space-evenly;
+    background-color: rgb(206, 133, 243);
+}
+
+.box{
+    height:380px;
+    /* border:2px solid black; */
+    width:23.3%;
+    background-color: rgb(255, 249, 249);
+    padding:20px 0px 15px;
+    margin:8px;
+}
+
+.box-img{
+    height:280px;
+    background-image: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin:10px 0px 15px;
+}
+
+.box-content{
+    color: #007185;  
+    margin-left:8px;
+    margin-right:10px;
+    cursor:pointer;
+}
+
+.box-content p{
+    text-decoration: underline;   /* sirf p pe */
+}
+
+/* box2 styling */
 
