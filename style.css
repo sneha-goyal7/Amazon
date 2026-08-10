@@ -530,3 +530,39 @@ hr {
     right: 5px;
 }
 
+/* in the end footer block start end part of the website */
+
+footer{
+    margin-top:15px;
+}
+/* panel 1 styling */
+.foot-panel1{
+    background-color: #30565a;
+    color:#e0e0e0;
+    height:50px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:0.85rem;
+    font-weight: 500;
+}
+/* panel 2 styling */
+.foot-panel2{
+    background-color: #2a4a4d;
+    color: white;
+    height:300px;
+    display:flex;
+    justify-content:space-evenly;
+}
+
+ul{
+    margin-top:20px;
+}
+
+ul a{
+    display:block;
+    font-size:0.85rem;
+    margin-top:10px;
+    color:#dddddd;
+}
+/* panel 3 styling */
