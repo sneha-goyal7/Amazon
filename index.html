@@ -1,12 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Amazon</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css" integrity="sha512-ApSLB1Pd3/bZN8fWB/RG9YhN/7bd9Hkf3AGaE2mPfebjrxagjuBtx2GcgdqIlJkUzwylBo61r9Xa9NmgBI0swA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css"
+        integrity="sha512-ApSLB1Pd3/bZN8fWB/RG9YhN/7bd9Hkf3AGaE2mPfebjrxagjuBtx2GcgdqIlJkUzwylBo61r9Xa9NmgBI0swA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
         <div class="navbar">
@@ -18,25 +22,62 @@
             <!--2nd box-->
             <div class="nav-address">
                 <div class="nav-address border">
-                <p class="add-first">Deliver to</p>
-                <div class="add-icon">
-                <i class="fa-solid fa-location-dot"></i>
-                <p class="add-second">India</p>
-                </div>
+                    <p class="add-first">Deliver to</p>
+                    <div class="add-icon">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p class="add-second">India</p>
+                    </div>
                 </div>
             </div>
             <!--3rd box-->
             <div class="nav-search">
                 <select class="search-select">
-                <option>All</option>
+                    <option>All</option>
+                    <option>A</option>
+                    <option>B</option>
+                    <option>C</option>
+                    <option>D</option>
+                    <option>E</option>
+                    <option>F</option>
                 </select>
                 <input placeholder="Search Amazon" class="search-input">
                 <div class="search-icon">
-                <i class="fa-solid fa-magnifying-glass"></i>             
+                    <i class="fa-solid fa-magnifying-glass"></i>
                 </div>
             </div>
             <!--4th box-->
+            <div class="language">
+                <div class="language border">
+                    <div class="lang-icon">
+                        <i class="fa-solid fa-flag-usa"></i>
+                        <span>ENGLISH</span>
+                    </div>
+                </div>
+                <div class="lang-panel" id="langPanel">
+                    <p class="section-title">Change language</p>
+                    <label class="radio-item"><input type="radio" name="language" checked> English</label>
+                    <label class="radio-item"><input type="radio" name="language"> español</label>
+
+                    <hr>
+
+                    <p class="section-title">Change currency</p>
+                    <label class="radio-item"><input type="radio" name="currency" checked> ₹ - INR</label>
+                    <label class="radio-item"><input type="radio" name="currency"> $ - USD</label>
+                    <a href="#" class="see-all">See all</a>
+
+                    <hr>
+
+                    <div class="country-notice">
+                        <i class="fa-solid fa-flag-usa"></i>
+                        <span>You are shopping on Amazon.com</span>
+                    </div>
+                    <a href="#" class="change-link">Change</a>
+                </div>
+            </div>
+            <!--5th box-->
+            
         </div>
     </header>
 </body>
+
 </html>
