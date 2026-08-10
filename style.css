@@ -101,6 +101,9 @@
     font-size:1.2rem;
 }
 
+.nav-search:hover {
+    border:2px solid rgb(236, 178, 68)
+}
 /*box 4 styling*/
 
 .lang-icon {
@@ -180,5 +183,24 @@
     margin-bottom: 6px;
 }
 
-/*box5 styling*/
+/*box5 & box6 styling*/
 
+span {
+    font-size:0.8rem;
+}
+
+.nav-second {
+    font-size:0.90rem;
+    font-weight: 700;
+}
+
+/*box7 style*/
+
+.nav-cart i{
+    font-size:32px;
+}
+
+.nav-cart {
+    font-size:1rem;
+    font-weight:700;
+}
