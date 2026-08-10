@@ -341,4 +341,19 @@ hr {
 
 .panel-option p{
     display:inline;
+    margin-left: 12px;
 }
+
+.panel-option {
+    width:68%;
+    font-size:0.88rem;
+}
+
+.panel-deals{
+    font-size: 0.96rem;
+    font-weight: 630;
+}
+
+/*panel section complete two section complete succesfully and looking so good*/
+/*hero section start*/
+
